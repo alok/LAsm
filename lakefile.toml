@@ -1,0 +1,15 @@
+name = "LAsm"
+version = "0.1.0"
+defaultTargets = ["lasm"]
+
+[[lean_lib]]
+name = "LAsm"
+
+[[lean_exe]]
+name = "lasm"
+root = "Main"
+
+[[require]]
+name = "Parser"
+git = "https://github.com/fgdorais/lean4-parser"
+rev = "main"
